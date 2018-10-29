@@ -213,7 +213,7 @@ class GraphMat {
 
     /**
      * Adds an edge.
-     * Complexity of addEdge is N.
+     * Complexity of addEdge is 1.
      * It uses hasEdge to check whether it is connected or not.
      *
      * @param      vert1  The vertical 1
@@ -229,7 +229,7 @@ class GraphMat {
 
     /**
      * Determines if it has edge.
-     * Complexity is O(N).
+     * Complexity is O(1).
      *
      * @param      v     { Vertex 1 }
      * @param      w     { Vertex 2 }
