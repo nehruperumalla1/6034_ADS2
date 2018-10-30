@@ -3,9 +3,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 1 errors.
 Starting audit...
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\DepthFirstSearch.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 Audit done.
-Checkstyle ends with 1 errors.
 Starting audit...
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:1:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
