@@ -3,42 +3,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:1:8: Unused import - java.util.NoSuchElementException. [UnusedImports]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:4:23: Extra HTML tag found: </i> by Robert Sedgewick and Kevin Wayne. [JavadocStyle]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:18:21: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:19:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:19:15: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:20:3: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:29:3: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:29:16: Parameter V should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:29:20: 'V' hides a field. [HiddenField]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:29:20: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:30: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:32:7: '(' should be on the previous line. [MethodParamPad]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:47:14: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:56:14: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:61:3: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:61:31: Parameter v should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:62: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:63:52: '+' should be on a new line. [OperatorWrap]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:64:71: '+' should be on a new line. [OperatorWrap]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:75:23: Parameter v should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:75:30: Parameter w should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:91:32: Parameter v should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Graph.java:109:21: Parameter v should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 24 errors.
 Starting audit...
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:14:12: Unused @param tag for 'objectGraph'. [JavadocMethod]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:15:12: Unused @param tag for 'vertexOne'. [JavadocMethod]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:20:48: Expected @param tag for 'graph'. [JavadocMethod]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:21:46: Expected @param tag for 'sourceVertex'. [JavadocMethod]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:33: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:37: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:39: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:45: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m2\2.1 CC_Percolation\Solution.java:47: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
