@@ -69,7 +69,7 @@ class PageRank {
 	}
 
 	public double getPR(int v) {
-		pageranks = tpageranks[k - 1];
+		pageranks = tpageranks[1000];
 		return pageranks[v];
 	}
 

@@ -305,6 +305,7 @@ Starting audit...
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:61: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:71:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:71:29: Parameter v should be final. [FinalParameters]
+[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:72:40: '1000' is a magic number. [MagicNumber]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:76:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:85: Missing a Javadoc comment. [JavadocType]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:90: Missing a Javadoc comment. [JavadocType]
@@ -321,7 +322,7 @@ Starting audit...
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:125: Line has trailing spaces. [RegexpSingleline]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:130: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 34 errors.
 Starting audit...
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
