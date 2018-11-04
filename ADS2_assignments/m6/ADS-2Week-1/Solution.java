@@ -27,6 +27,7 @@ class PageRank {
 		tpageranks[0] = pageranks;
 		// System.out.println(Arrays.toString(pageranks));
 		checkCorner();
+		// graph = new Digraph(graph);
 		compPageRank();
 	}
 
@@ -47,16 +48,16 @@ class PageRank {
 		int outdegree = 0;
 		Double[] pageranking = null;
 		Double[] pageranker = null;
-		for (k = 1; k <= 1001; k++) {
+		for (k = 1; k <= 1000; k++) {
 			pageranking = new Double[graph.V()];
 			for (int i = 0; i < graph.V(); i++) {
-				list = graph.getindegree(i);
+				// list = graph.getindegree(i);
 				Double pagerank = 0.0;
 				// System.out.println(graph.indegree(i) + " indegree");
 				pageranker = new Double[graph.V()];
 				pageranker = tpageranks[k - 1];
-				for (int j = 0; j < graph.indegree(i); j++) {
-					vertex = list.get(j);
+				for (int j : graph.reverse().adj(i)) {
+					vertex = j;
 					outdegree = graph.outdegree(vertex);
 					pagerank += (pageranker[vertex] / outdegree);
 				}
@@ -76,7 +77,7 @@ class PageRank {
 	public String toString() {
 		String str = "";
 		for (int i = 0; i < graph.V(); i++) {
-			str += i + " - " + getPR(i) + " \n";
+			str += i + " - " + getPR(i) + "\n";
 		}
 		return str;
 	}
