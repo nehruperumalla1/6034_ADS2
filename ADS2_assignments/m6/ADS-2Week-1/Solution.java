@@ -19,7 +19,7 @@ class PageRank {
 		graph = digraph;
 		k = 0;
 		pageranks = new Double[graph.V()];
-		tpageranks = new Double[1002][graph.V()];
+		tpageranks = new Double[1001][graph.V()];
 		Double firstpr = 1.0 / graph.V();
 		for (int i = 0; i < graph.V(); i++) {
 			pageranks[i] = firstpr;

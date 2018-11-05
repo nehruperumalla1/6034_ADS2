@@ -297,7 +297,7 @@ Starting audit...
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:17:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:18:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:18:18: Parameter digraph should be final. [FinalParameters]
-[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:22:41: '1002' is a magic number. [MagicNumber]
+[ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:22:41: '1001' is a magic number. [MagicNumber]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:34:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:46:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\ADS2\6034_ADS2\ADS2_assignments\m6\ADS-2Week-1\Solution.java:51:34: '1000' is a magic number. [MagicNumber]
