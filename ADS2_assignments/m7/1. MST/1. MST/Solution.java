@@ -144,6 +144,7 @@ class WeightedEdgeGraph {
 
     /**
      * Iterable.
+     * Complexity is O(V).
      *
      * @param      verte     { Vertex }
      *
@@ -157,8 +158,9 @@ class WeightedEdgeGraph {
      * Returns all edges in this edge-weighted graph.
      * To iterate over the edges in this edge-weighted graph,
      * use foreach notation:
+     * Complexity is O(E).
      *
-     * @return     { description_of_the_return_value }
+     * @return     { Iterable }
      */
     public Iterable<Edge> edges() {
         Bag<Edge> list = new Bag<Edge>();
@@ -197,6 +199,7 @@ class Mst {
     private double weight = 0;
     /**
      * Constructs the object.
+     * Complexity is O(ElogE).
      *
      * @param      egraph  The egraph
      */
@@ -240,6 +243,7 @@ public final class Solution {
     private Solution() { }
     /**
      * Main Method.
+     * Complexity is O(ElogE).
      *
      * @param      args  The arguments
      */
