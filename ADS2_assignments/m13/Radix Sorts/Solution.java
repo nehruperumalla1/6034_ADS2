@@ -71,6 +71,9 @@ class Lsd {
     Lsd() { }
     /**
      * Sorts the given strings.
+     * Complxity is 2 N W.
+     * N - No.of Strings.
+     * W - Fixed Length of String.
      *
      * @param      a     { String array }
      * @param      w     { Fixed length of String }
