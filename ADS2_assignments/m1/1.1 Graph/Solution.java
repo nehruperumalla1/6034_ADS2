@@ -75,7 +75,8 @@ class GraphL {
 
     /**
      * Adds an edge, connects two vertices.
-     * In worst case the complexity is O(N).
+     * In worst case the complexity is O(E).
+     * E - No.of Edges.
      *
      * @param      vert1  The vertical 1
      * @param      vert2  The vertical 2
@@ -90,7 +91,7 @@ class GraphL {
 
     /**
      * Iterable to iterate no.of keys.
-     * Complexity is O(N).
+     * Complexity is O(V + E).
      * It iterates through the Bag.
      *
      * @param      v     { Integer Value }
@@ -103,8 +104,8 @@ class GraphL {
 
     /**
      * Determines if it has edge.
-     * Complexity of hasEdge is O(N).
-     * It iterates through bag in worst case.
+     * Complexity of hasEdge is O(E).
+     * E - No.of Edges.
      *
      * @param      v     { Vertex Index 1 }
      * @param      w     { Vertex Index 2 }
@@ -242,7 +243,7 @@ class GraphMat {
 
     /**
      * Iterable iterates the Array.
-     * Complexity of Iterable is O(N).
+     * Complexity of Iterable is O(V + E).
      *
      * @param      v     { Integer value }
      *
@@ -287,7 +288,7 @@ public final class Solution {
     private Solution() { }
     /**
      * Main Method for Graph.
-     * Complexity is O(N ^ 2).
+     * Complexity for Graph - O(V + E).
      *
      * @param      args  The arguments
      */
