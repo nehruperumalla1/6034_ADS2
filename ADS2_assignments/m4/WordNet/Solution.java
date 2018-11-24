@@ -31,7 +31,6 @@ final class Solution {
      *the method is for reading the file and.
      *to put all the values in hashmap.
      * @param     file  The file
-     Complexity is O(log(n))
      */
     public  static void fileSynsets(final String file) {
         try {
@@ -78,7 +77,6 @@ final class Solution {
      *this method is to read the hypernynms.
      *and build the graph based on the.
      *edges given.
-     Complexity is O(f) here f: number of files to be read
      *
      * @param      file  The file
      */
@@ -110,7 +108,6 @@ final class Solution {
      *check whether the graph is a
      *cycle or it has multiple roots or not.
      * @param      args  The arguments
-     Complexity is O(n)
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -122,7 +119,7 @@ final class Solution {
         fileHypernm(fileTwo);
         switch (type) {
         case "Graph":
-            Directedcycle cycleObj = new Directedcycle(graph);
+            DirectedCycle cycleObj = new DirectedCycle(graph);
             for (int i = 0; i < graph.V(); i++) {
                 int outdegree = graph.outdegree(i);
                 if (outdegree == 0) {
@@ -167,4 +164,3 @@ final class Solution {
         }
     }
 }
-

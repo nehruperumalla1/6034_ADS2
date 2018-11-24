@@ -1,7 +1,7 @@
 /**
  *the class for directed cycle.
  */
-class Directedcycle {
+class DirectedCycle {
     /**
      *the marked array for.
      *maitaining the visited vertices.
@@ -26,7 +26,7 @@ class Directedcycle {
      *
      * @param      graph  The graph
      */
-    Directedcycle(final Digraph graph) {
+    DirectedCycle(final Digraph graph) {
         marked = new boolean[graph.V()];
         onStack = new boolean[graph.V()];
         edgeTo = new int[graph.V()];
@@ -64,7 +64,12 @@ class Directedcycle {
         }
         onStack[vertex] = false;
     }
+    /**
+     *the method to check whether cycle is.
+     *there or not.
+     * @return     True if has cycle, False otherwise.
+     */
     public boolean hasCycle() {
         return stack != null;
-}
+    }
 }
