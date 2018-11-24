@@ -9,6 +9,7 @@ class Percolation {
     private int vertices;
     /**
      * checks for percolation.
+     * Complexity is O(N ^ 2).
      *
      * @param      grid         The grid
      * @param      graph        The object graph
@@ -53,8 +54,7 @@ class Percolation {
     }
     /**
      * this method gives the edge of graph.
-     *
-     * Time complexity is O(1).
+     * Time Complexity is O(N ^ 2).
      * @param      row     The row
      * @param      column  The column
      *

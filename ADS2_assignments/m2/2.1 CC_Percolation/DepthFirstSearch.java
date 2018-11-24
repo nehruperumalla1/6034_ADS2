@@ -43,6 +43,7 @@ class DepthFirstSearch {
 
   /**
    * { function_description }.
+   * Complexity is O(E).
    *
    * @param      g     { parameter_description }
    * @param      v     { parameter_description }
