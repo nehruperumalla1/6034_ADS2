@@ -66,8 +66,8 @@ class Bipartite {
     }
     /**
      * depth first search method.
-     * complexity O(e) e refers to no of
-     * edges.
+     * complexity O(E + V) E refers to no of
+     * edges, V refers to no.of vertices.
      * @param      graph  The graph
      * @param      one    One
      */
